@@ -96,7 +96,7 @@ sudo chown -R $USER:$USER /var/www/projectlamp
 
 sudo vi /etc/apache2/sites-available/projectlamp.conf
 
-*on the new blank file created. I pasted in the following bare-bones configuration by hitting on i on the keyboard to enter the insert mode, and paste the text:
+*on the new blank file created. I pasted in the following bare-bones configuration by hitting on i on the keyboard to enter the insert mode, and paste the text:*
 
 <VirtualHost *:80>
     ServerName projectlamp

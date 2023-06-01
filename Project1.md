@@ -161,5 +161,8 @@ vim /var/www/projectlamp/index.php
 
 *In the blank file that was created, I added the following text, which is valid PHP code, inside the file:*
 
+*I saved and closed the file, refreshed the page and this page came up:*
+
+
 
 

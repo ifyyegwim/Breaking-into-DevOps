@@ -163,6 +163,7 @@ vim /var/www/projectlamp/index.php
 
 *I saved and closed the file, refreshed the page and this page came up:*
 
+<img width="1100" alt="Screenshot 2023-06-01 at 21 44 24" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/4cbfc9bc-1650-4e25-92e1-c7243f4703a7">
 
 
 

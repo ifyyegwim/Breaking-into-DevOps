@@ -65,3 +65,17 @@ sudo mysql_secure_installation
 sudo mysql -p
 
 <img width="570" alt="Screenshot 2023-06-01 at 20 02 25" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/9fafb9ef-20f2-4869-83f4-013fd3ab771c">
+
+My MySQL server is now installed and secured.
+
+**STEP 5:** I installed the PHP package consisting php-mysql and libapache2-mod-php using 'apt'
+
+*to install these 3 packages at once, I ran the command below*
+
+sudo apt install php libapache2-mod-php php-mysql
+
+*to confirm my php version after installation, I ran the command below*
+
+php -v
+
+

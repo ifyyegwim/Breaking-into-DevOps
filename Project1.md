@@ -48,7 +48,7 @@ sudo apt install mysql-server
 
 sudo mysql
 
-*I set a password for the root user with the command below, using mysql_native_password as default authentication method. I'm defining this user's password as newpassword* 
+*I set a password for the root user using mysql_native_password as default authentication method. I'm defining this user's password as newpassword. To do this, I ran the command below* 
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassword';
 

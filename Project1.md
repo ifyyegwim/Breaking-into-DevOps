@@ -64,3 +64,4 @@ sudo mysql_secure_installation
 
 sudo mysql -p
 
+<img width="570" alt="Screenshot 2023-06-01 at 20 02 25" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/9fafb9ef-20f2-4869-83f4-013fd3ab771c">

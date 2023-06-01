@@ -16,6 +16,6 @@ sudo apt update
 
 sudo apt install apache2
 
-*to verify that apache2 is running as a service in my OS, I ran the command below
+*to verify that apache2 is running as a service in my OS, I ran the command below*
 
 sudo systemctl status apache2

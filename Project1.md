@@ -165,3 +165,12 @@ vim /var/www/projectlamp/index.php
 
 *I saved and closed the file, refreshed the page and this page came up:*
 
+<img width="1280" alt="Screenshot 2023-06-01 at 21 44 24" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/3b8c66d8-bea1-4437-9bb9-2bb83ff88bdd">
+
+*I removed the file I created as it contains sensitive information about my PHP environment and your Ubuntu server using:*
+
+sudo rm /var/www/projectlamp/index.php
+
+*The page can be recreated if the information is needed again later.*
+
+LAMP Stack has been successfully deployed on AWS.

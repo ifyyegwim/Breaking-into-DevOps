@@ -133,3 +133,5 @@ sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/met
 
 http://16.16.254.129
 
+<img width="1097" alt="Screenshot 2023-06-01 at 21 11 57" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/b20610b3-cd7c-4bc2-8c5f-5bc6aeed1f1c">
+

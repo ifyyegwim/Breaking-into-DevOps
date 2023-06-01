@@ -19,6 +19,7 @@ sudo apt install apache2
 *to verify that apache2 is running as a service in my OS, I ran the command below*
 
 sudo systemctl status apache2
+
 <img width="1280" alt="Screenshot 2023-06-01 at 18 34 19" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/bac01c05-fd63-40b4-85f2-e8f3223e6d68">
 
 **STEP 3:** I added a rule in my EC2 configuration to open inbound configuration through port 80 and set the source to 0.0.0.0/0 so my Web Server can receive traffic and can be accessed both locally and from the Internet.
@@ -31,6 +32,6 @@ curl http://127.0.0.1:80
 
 *to confirm that my Apache server can respond to requests from the Internet, on my browser, I accessed the url below*
 
-http://<Public-IP-Address>:80
+http://16.16.254.129
   
   

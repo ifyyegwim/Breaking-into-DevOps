@@ -173,4 +173,4 @@ sudo rm /var/www/projectlamp/index.php
 
 Th page can be recreated if needed.
 
-**LAMP STACK HAS BEEN SUCCESSFULLY IMPLEMENTED** 🥳
+**LAMP STACK HAS BEEN SUCCESSFULLY IMPLEMENTED IN AWS** 🥳

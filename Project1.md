@@ -36,3 +36,31 @@ http://16.16.254.129
   
 <img width="1270" alt="Screenshot 2023-06-01 at 19 08 39" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/f01d55e3-a42d-44ce-931c-e09462d63f36">
 
+My web server, Apache is now running.
+
+**STEP 4:** I installed MySQL using 'apt'
+
+*to acquire and install this software, I ran the command below*
+
+sudo apt install mysql-server
+
+*after installation was completed, I logged in to the MySQL console with the command below
+
+sudo mysql
+
+*I set a password for the root user with the command below, using mysql_native_password as default authentication method. I'm defining this user's password as newpassword* 
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassword';
+
+*I exited the MySQL shell with the command below*
+
+exit
+
+*I ran a security script to remove insecure default settings and lock down access to my database system using* 
+
+sudo mysql_secure_installation
+
+*I validated password plugin, removed anonymous users, disabled remote root logins e.t.c then I logged back into the MySQL console using*
+
+sudo mysql -p
+

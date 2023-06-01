@@ -78,4 +78,4 @@ sudo apt install php libapache2-mod-php php-mysql
 
 php -v
 
-
+<img width="566" alt="Screenshot 2023-06-01 at 20 17 21" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/37eecc2d-3a5d-497f-9740-a02b8aa117fb">

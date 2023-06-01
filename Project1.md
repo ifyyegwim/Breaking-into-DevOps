@@ -165,5 +165,12 @@ vim /var/www/projectlamp/index.php
 
 <img width="1100" alt="Screenshot 2023-06-01 at 21 44 24" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/4cbfc9bc-1650-4e25-92e1-c7243f4703a7">
 
+*PHP Installation is working as expected*
 
+*I then removed the file I created as it contains sensitive information about my PHP environment and my Ubuntu server using the command:*
 
+sudo rm /var/www/projectlamp/index.php
+
+Th page can be recreated if needed.
+
+**LAMP STACK HAS BEEN SUCCESSFULLY IMPLEMENTED** 🥳

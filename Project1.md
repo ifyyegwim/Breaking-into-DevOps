@@ -19,3 +19,4 @@ sudo apt install apache2
 *to verify that apache2 is running as a service in my OS, I ran the command below*
 
 sudo systemctl status apache2
+<img width="1280" alt="Screenshot 2023-06-01 at 18 34 19" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/bac01c05-fd63-40b4-85f2-e8f3223e6d68">

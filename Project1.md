@@ -137,9 +137,7 @@ http://16.16.254.129
 
 **STEP 7:** I enabled PHP on my website
 
-*With the default DirectoryIndex settings on Apache, a file named index.html will always take precedence over an index.php file. This is useful for setting up maintenance pages in PHP applications, by creating a temporary index.html file containing an informative message to visitors. Because this page will take precedence over the index.php page, it will then become the landing page for the application. Once maintenance is over, the index.html is renamed or removed from the document root, bringing back the regular application page.*
-
-*to change this behavior, I edited the /etc/apache2/mods-enabled/dir.conf file and changed the order in which the index.php file is listed within the DirectoryIndex directive using the command:*
+I edited the /etc/apache2/mods-enabled/dir.conf file and changed the order in which the index.php file is listed within the DirectoryIndex directive using the command:*
 
 sudo vim /etc/apache2/mods-enabled/dir.conf
 

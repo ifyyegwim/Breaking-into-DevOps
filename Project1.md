@@ -135,3 +135,33 @@ http://16.16.254.129
 
 <img width="1097" alt="Screenshot 2023-06-01 at 21 11 57" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/b20610b3-cd7c-4bc2-8c5f-5bc6aeed1f1c">
 
+*I saw the text from **echo** command I wrote to index.html file, meaning my Apache virtual host is working as expected*
+
+**STEP 7:** I enabled PHP on my website
+
+*With the default DirectoryIndex settings on Apache, a file named index.html will always take precedence over an index.php file. This is useful for setting up maintenance pages in PHP applications, by creating a temporary index.html file containing an informative message to visitors. Because this page will take precedence over the index.php page, it will then become the landing page for the application. Once maintenance is over, the index.html is renamed or removed from the document root, bringing back the regular application page.*
+
+*to change this behavior, I edited the /etc/apache2/mods-enabled/dir.conf file and changed the order in which the index.php file is listed within the DirectoryIndex directive using the command:*
+
+sudo vim /etc/apache2/mods-enabled/dir.conf
+
+<IfModule mod_dir.c>
+        #Change this:
+        #DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+        #To this:
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+
+*After saving and closing the file, I reloaded Apache so the changes take effect:*
+
+sudo systemctl reload apache2
+
+*Now that I have a custom location to host my website’s files and folders, I created a PHP test script to confirm that Apache is able to handle and process requests for PHP files. Create a new file named index.php inside your custom web root folder:*
+
+vim /var/www/projectlamp/index.php
+
+*In the blank file that was created, I added the following text, which is valid PHP code, inside the file:*
+
+<?php
+phpinfo();
+

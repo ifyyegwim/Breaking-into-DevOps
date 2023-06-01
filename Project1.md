@@ -34,4 +34,5 @@ curl http://127.0.0.1:80
 
 http://16.16.254.129
   
-  
+<img width="1270" alt="Screenshot 2023-06-01 at 19 08 39" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/f01d55e3-a42d-44ce-931c-e09462d63f36">
+

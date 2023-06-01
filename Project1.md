@@ -110,3 +110,5 @@ sudo vi /etc/apache2/sites-available/projectlamp.conf
 *I then saved and closed the file by clicking **esc**, typing **:**, followed by **wq** and **ENTER**. Then used the **ls** command to show the new file in the sites-available directory*
 
 sudo ls /etc/apache2/sites-available
+
+<img width="469" alt="Screenshot 2023-06-01 at 20 53 48" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/6e5421d7-40bb-48d2-948e-8bc0348b6af4">

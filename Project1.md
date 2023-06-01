@@ -56,7 +56,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassw
 
 exit
 
-*I ran a security script to remove insecure default settings and lock down access to my database system using* 
+*I ran a security script to remove insecure default settings and lock down access to my database system using:* 
 
 sudo mysql_secure_installation
 
@@ -79,3 +79,34 @@ sudo apt install php libapache2-mod-php php-mysql
 php -v
 
 <img width="566" alt="Screenshot 2023-06-01 at 20 17 21" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/37eecc2d-3a5d-497f-9740-a02b8aa117fb">
+
+PHP has been installed.
+
+**STEP 6:** I created a virtual host for my website using Apache
+
+*I created a directory for project lamp with the command:*
+
+sudo mkdir /var/www/projectlamp
+
+*I assigned ownwership of the directory with my current system with the command:*
+
+sudo chown -R $USER:$USER /var/www/projectlamp
+
+*I created and opened a new configuration file in Apache's sites-available directory using vi with the command:*
+
+sudo vi /etc/apache2/sites-available/projectlamp.conf
+
+*on the new blank file created. I pasted in the following bare-bones configuration by hitting on i on the keyboard to enter the insert mode, and paste the text:
+
+<VirtualHost *:80>
+    ServerName projectlamp
+    ServerAlias www.projectlamp 
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/projectlamp
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+*I then saved and closed the file by clicking **esc**, typing **:**, followed by **wq** and **ENTER**. Then used the **ls** command to show the new file in the sites-available directory*
+
+sudo ls /etc/apache2/sites-available

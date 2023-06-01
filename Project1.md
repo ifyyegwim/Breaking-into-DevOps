@@ -112,3 +112,24 @@ sudo vi /etc/apache2/sites-available/projectlamp.conf
 sudo ls /etc/apache2/sites-available
 
 <img width="469" alt="Screenshot 2023-06-01 at 20 53 48" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/6e5421d7-40bb-48d2-948e-8bc0348b6af4">
+
+*I used a2ensite command to enable the new virtual host:*
+
+sudo a2ensite projectlamp
+
+*I disabled Apache’s default website using a2dissite command:*
+
+sudo a2dissite 000-default
+
+*I reloaded Apache so these changes can take effect:*
+
+sudo systemctl reload apache2
+
+*website is now active, but the web root /var/www/projectlamp is still empty. I create an index.html file in that location so that I can test that the virtual host works as expected:*
+
+sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html
+
+*on my browser, I accessed my website URL using IP address:*
+
+http://16.16.254.129
+

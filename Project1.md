@@ -28,3 +28,9 @@ sudo systemctl status apache2
 curl http://127.0.0.1:80
 
 <img width="736" alt="Screenshot 2023-06-01 at 18 55 00" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/e57fcfe7-425e-4ea1-9b87-3eefada55d38">
+
+*to confirm that my Apache server can respond to requests from the Internet, on my browser, I accessed the url below*
+
+http://<Public-IP-Address>:80
+  
+  

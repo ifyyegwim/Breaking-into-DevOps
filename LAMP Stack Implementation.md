@@ -43,7 +43,7 @@ My web server, Apache, is now running.
 
     sudo apt install mysql-server
 
-*after installation was completed, I logged in to the MySQL console with the command below
+*after installation was completed, I logged in to the MySQL console with the command below*
 
     sudo mysql
 

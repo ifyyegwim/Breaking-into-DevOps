@@ -3,6 +3,7 @@
 A LAMP stack is a bundle of four different software technologies that developers use to build websites and web applications. LAMP is an acronym for the operating system, Linux; the web server, Apache; the database server, MySQL; and the programming language, PHP. Before I attempted this project, I had already created an AWS account and launched an instance running Ubuntu Server OS. I will now describe the steps I took to successfully implement LAMP.
 
 **STEP 1:** I set up an SSH and connected to my running instance on AWS via terminal
+
 <img width="1280" alt="Screenshot 2023-06-01 at 17 47 04" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/d6b16a0a-b019-4dbf-9519-7b68f58627ac">
 
 **STEP 2:** I installed Apache using Ubuntu's package installer 'apt'
@@ -22,6 +23,8 @@ A LAMP stack is a bundle of four different software technologies that developers
 <img width="1280" alt="Screenshot 2023-06-01 at 18 34 19" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/bac01c05-fd63-40b4-85f2-e8f3223e6d68">
 
 **STEP 3:** I added a rule in my EC2 configuration to open inbound configuration through port 80 and set the source to 0.0.0.0/0 so my Web Server can receive traffic and can be accessed both locally and from the Internet.
+
+<img width="1177" alt="Screenshot 2023-06-03 at 09 25 39" src="https://github.com/NewthingAde/WEB-STACK-IMPLEMENTATION-LEMP-STACK-/assets/134213051/af7dbed1-de51-4f48-ae5e-b9249b9e700e">
 
 *to confirm I can access my Web Server locally, I ran the command below*
 
@@ -87,7 +90,7 @@ PHP has been installed.
 
     sudo mkdir /var/www/projectlamp
 
-*I assigned ownwership of the directory with my current system with the command:*
+*I assigned ownwership of the directory to my current system with the command:*
 
     sudo chown -R $USER:$USER /var/www/projectlamp
 
@@ -95,7 +98,7 @@ PHP has been installed.
 
     sudo vi /etc/apache2/sites-available/projectlamp.conf
 
-*on the new blank file created. I pasted in the following bare-bones configuration by hitting on i on the keyboard to enter the insert mode, and paste the text:*
+*on the new blank file created, I pasted in the following bare-bones configuration by hitting on i on the keyboard to enter the insert mode, and paste the text:*
 
     <VirtualHost *:80>
     ServerName projectlamp

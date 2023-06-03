@@ -276,5 +276,6 @@ I saved and closed the file by typing **CTRL+X** and then **y** and **ENTER** to
 
 <img width="1142" alt="Screenshot 2023-06-02 at 23 49 53" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/bec3a0ec-e075-4905-898e-07803c17f350">
 
-**LEMP STACK HAS BEEN SUCCESSFULLY IMPLEMENTED IN AWS**
+
+**LEMP STACK HAS BEEN SUCCESSFULLY IMPLEMENTED IN AWS** 🥳
 

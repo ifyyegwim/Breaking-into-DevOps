@@ -254,7 +254,7 @@ The following PHP script connects to the MySQL database and queries for the cont
 
      <?php
      $user = "example_user";
-     $password = "password";
+     $password = "newpassword";
      $database = "example_database";
      $table = "todo_list";
 

@@ -37,7 +37,7 @@ A LAMP stack is a bundle of four different software technologies that developers
 
     http://<Public-IP-Address>:80)
   
-[<img width="1270" alt="Screenshot 2023-06-01 at 19 08 39" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/f01d55e3-a42d-44ce-931c-e09462d63f36">](https://user-images.githubusercontent.com/80678596/163705182-cd4d5d38-6943-41dc-bfb1-2184847c3a54.png)
+<img width="801" alt="163705182-cd4d5d38-6943-41dc-bfb1-2184847c3a54" src="https://github.com/NewthingAde/Lamp-Stack-Implementation/assets/134213051/b848edcd-4f52-4075-a516-753977d5e983">
 
 Our web server, Apache, is now running.
 
